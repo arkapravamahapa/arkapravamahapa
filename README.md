@@ -185,7 +185,9 @@
 <br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=arkapravamahapa&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" width="100%" alt="Trophies" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=arkapravamahapa&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" width="100%" alt="Trophies" />
+  </a>
 </div>
 
 ---
