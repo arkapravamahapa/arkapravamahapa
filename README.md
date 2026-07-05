@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- IMPORTANT: Replace with your actual banner link once uploaded -->
-<img src="https://path-to-your-actual-top-banner.png" width="100%" alt="Personal Profile Banner" />
+<img src="Gemini_Generated_Image_93m45f93m45f93m4.png" width="100%" alt="Personal Profile Banner" />
 
 <br/>
 
