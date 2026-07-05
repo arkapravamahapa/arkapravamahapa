@@ -1,0 +1,66 @@
+name: Tic-Tac-Toe Engine
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Process Move
+        if: startsWith(github.event.issue.title, 'ttt|')
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python -c '
+          import os, re, urllib.request, json
+          title = os.environ.get("ISSUE_TITLE", "")
+          
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          if title == "ttt|reset":
+              # Reset all X and O images back to blank
+              content = re.sub(r"(title=ttt%7C\d%7C\d\"><img src=\"[^\"]*main/)[xo](\.png)", r"\g<1>blank\g<2>", content)
+          else:
+              _, row, col = title.split("|")
+              
+              # Figure out whose turn it is
+              x_count = content.count("main/x.png")
+              o_count = content.count("main/o.png")
+              turn = "x" if x_count <= o_count else "o"
+              
+              # Find the exact cell and replace it
+              target = f"title=ttt%7C{row}%7C{col}\"><img src=\"https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png\""
+              replacement = f"title=ttt%7C{row}%7C{col}\"><img src=\"https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/{turn}.png\""
+              content = content.replace(target, replacement)
+
+          with open("README.md", "w") as f:
+              f.write(content)
+              
+          # Automatically close the issue
+          url = f"https://api.github.com/repos/{os.environ[\"REPO\"]}/issues/{os.environ[\"ISSUE_NUMBER\"]}"
+          req = urllib.request.Request(url, method="PATCH", data=json.dumps({"state": "closed"}).encode())
+          req.add_header("Authorization", f"Bearer {os.environ[\"GH_TOKEN\"]}")
+          req.add_header("Accept", "application/vnd.github.v3+json")
+          urllib.request.urlopen(req)
+          '
+
+      - name: Commit and Push Changes
+        if: startsWith(github.event.issue.title, 'ttt|')
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Tic-Tac-Toe move: ${{ github.event.issue.title }}" || exit 0
+          git push
