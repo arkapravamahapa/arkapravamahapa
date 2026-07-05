@@ -1,6 +1,5 @@
 <div align="center">
 
-<!-- IMPORTANT: Replace with your actual banner link once uploaded -->
 <img src="Gemini_Generated_Image_93m45f93m45f93m4.png" width="100%" alt="Personal Profile Banner" />
 
 <br/>
@@ -9,7 +8,6 @@
 
 <br/>
 
-<!-- Consolidate contacts in a clean layout -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/genith-arc) 
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/s2aVArrH7b) 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/arkaprava1013) 
@@ -237,6 +235,8 @@
           <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C3%7C3"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="9" width="40"></a></td>
         </tr>
       </table>
+      <br>
+      <a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7Creset"><img src="https://img.shields.io/badge/Reset%20Board-red?style=for-the-badge" alt="Reset"></a>
     </td>
   </tr>
 </table>
