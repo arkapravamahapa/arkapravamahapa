@@ -46,7 +46,6 @@
 ---
 
 ### 🕹️ Contribution Snake Game
-*Watch the snake eat my GitHub contributions!*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake-dark.svg">
