@@ -161,7 +161,7 @@
 
 ---
 
-## 📊 Analytics & Interactive Widgets
+## 📊 Analytics & Deep Stats
 
 *Curated visualizations of my developer journey and contributions.*
 
@@ -186,36 +186,60 @@
 
 <br>
 
-## 📊 More Advanced Interactive Statistics
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=arkapravamahapa&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" width="100%" alt="Trophies" />
+</div>
 
-Watch my contribution progress across multiple dimensions, including real-time activity and multi-device interaction analysis.
+---
 
-<!-- Activity Graph: Needs to be configured -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arkapravamahapa&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph" />
+<div align="center">
+
+## 🎮 The Interactive Zone
+
+*Take a break and interact with my dynamic profile widgets!*
 
 <br>
 
-<table align="center" width="100%">
+### 🐍 GitHub Contribution Snake
+*Watch the snake consume my daily commits.*
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+<br><br>
+
+<table width="100%">
   <tr>
-    <td width="60%">
-      <!-- Contribution Snake (Requires Action setup) -->
-      <h3>🕹️ Contribution Snake</h3>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake.svg">
-        <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/output/github-contribution-grid-snake.svg" width="100%">
-      </picture>
-    </td>
-    <td width="40%">
-      <!-- Contribution Pacman (Requires Action setup) -->
-      <h3>👾 Pacman Contribution</h3>
+    <td width="50%" align="center">
+      <h3>👾 Pacman Contribution History</h3>
+      <p><i>My coding activity visualized as a retro game level.</i></p>
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=arkapravamahapa&theme=tokyo-night&hide_border=true&area=true&custom_title=My+Pacman+History" width="100%" alt="Pacman Activity Graph" />
+    </td>
+    <td width="50%" align="center">
+      <h3>❌ Play Tic-Tac-Toe With Me ⭕</h3>
+      <p><i>Click a square below to open a GitHub Issue and make your move!</i></p>
+      <table>
+        <tr>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C1%7C1"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="1" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C1%7C2"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="2" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C1%7C3"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="3" width="40"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C2%7C1"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="4" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C2%7C2"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="5" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C2%7C3"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="6" width="40"></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C3%7C1"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="7" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C3%7C2"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="8" width="40"></a></td>
+          <td><a href="https://github.com/arkapravamahapa/arkapravamahapa/issues/new?title=ttt%7C3%7C3"><img src="https://raw.githubusercontent.com/arkapravamahapa/arkapravamahapa/main/blank.png" alt="9" width="40"></a></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
-
-<!-- GitHub Trophies -->
-<img src="https://github-profile-trophy.vercel.app/?username=arkapravamahapa&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" width="100%" alt="Trophies" />
 
 <br/>
 
